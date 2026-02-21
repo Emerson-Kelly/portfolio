@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="winter">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Emerson Kelly | Full-Stack Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAV -->
+    <header class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-base-100/70 border-b border-base-200">
+        <div class="max-w-5xl mx-auto">
+
+            <div class="navbar flex justify-around lg:justify-between px-0 min-h-[60px]">
+
+
+                <!-- Desktop Menu -->
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="flex items-center gap-8 text-sm font-medium text-base-content/70">
+                        <li>
+                            <a href="#about-me" class="hover:text-neutral transition">
+                                About Me
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="hover:text-neutral transition">
+                                Projects
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#experience" class="hover:text-neutral transition">
+                                Experience
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#education" class="hover:text-neutral transition">
+                                Education
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right Side -->
+                <div class="navbar-between lg:navbar-end w-full px-4 lg:px-0">
+
+                    <!-- Desktop Button -->
+                    <a href="mailto:emerson4945@gmail.com"
+                        class="hidden lg:inline-flex btn btn-sm btn-primary px-6 rounded-full">
+                        Contact
+                    </a>
+
+                    <!-- Mobile Menu -->
+                    <div class="dropdown dropdown-around lg:hidden flex justify-between">
+                        <div tabindex="0" role="button" class="btn btn-ghost btn-sm p-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"
+                                    d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </div>
+
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-4 w-56 p-4 shadow-lg bg-base-100 rounded-xl border border-base-200 space-y-2">
+                            <li><a href="#about-me">About Me</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#education">Education</a></li>
+                        </ul>
+
+                        <a href="mailto:emerson4945@gmail.com" class="btn btn-sm btn-primary px-6 rounded-full">
+                            Contact
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <div id="about-me" class="bg-transparent">
+        <section class="relative">
+
+            <div class="max-w-5xl mx-auto pt-16 lg:py-32">
+
+                <div class="grid lg:grid-cols-5 grid-cols-1 items-center px-4 lg:px-0">
+
+                    <!-- LEFT SIDE -->
+                    <div
+                        class="space-y-5 lg:col-span-3 col-span-1 justify-center max-w-5xl lg:max-w-full w-full mx-auto pt-12 pb-24 lg:py-0">
+
+                        <p class="text-primary font-medium tracking-wide uppercase text-sm">
+                            Full-Stack Developer
+                        </p>
+                        <h1 class="text-5xl lg:text-6xl font-bold leading-tight text-neutral">
+                            Emerson Kelly
+                        </h1>
+                        <h3
+                            class="text-[140%] md:text-3xl max-w-lg text-wrap font-semibold leading-tight text-base-content">
+                            Building scalable web applications with clean architecture
+                        </h3>
+
+                        <p class="text-lg text-base-content/70 leading-relaxed max-w-xl">
+                            I design and develop modern full-stack applications using
+                            Node.js, Express.js, PostgreSQL, and React.
+                            I focus on performance, maintainability, and delivering
+                            product-driven user experiences.
+                        </p>
+
+                        <div class="flex flex-wrap gap-4 pt-4">
+                            <a href="#projects" class="btn btn-primary px-8">
+                                View Projects
+                            </a>
+                            <a href="mailto:emerson4945@gmail.com" class="btn btn-outline px-8">
+                                Get In Touch
+                            </a>
+                        </div>
+
+                        <!-- Social -->
+                        <div class="flex gap-6 pt-6">
+                            <a href="https://www.linkedin.com/in/emerson-kelly/" target="_blank">
+                                <img class="h-6 opacity-70 hover:opacity-100 transition"
+                                    src="/assets/LinkedIn_icon.png" />
+                            </a>
+                            <a href="https://github.com/Emerson-Kelly" target="_blank">
+                                <img class="h-6 opacity-70 hover:opacity-100 transition"
+                                    src="/assets/github-logo.png" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT SIDE -->
+                    <div class="relative order-first lg:order-last md:col-span-2 col-span-1">
+                        <div
+                            class="w-full h-[420px] md:h-[500px] lg:h-auto lg:aspect-[4/5] bg-[url(/assets/Emerson-Kelly.JPG)]  bg-no-repeat bg-cover lg:bg-contian bg-top lg:rounded-2xl overflow-hidden lg:shadow-xl lg:border lg:border-base-200">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <!-- BODY CONTENT WRAPPER -->
+    <div class="gap-12 max-w-5xl m-auto px-4 lg:px-0">
+
+        <!-- PROJECTS -->
+        <section id="projects" class="scroll-mt-24">
+
+            <!-- Section Header -->
+            <div class="mb-16">
+                <h1 class="text-4xl lg:text-5xl font-bold text-neutral">
+                    Projects
+                </h1>
+                <p class="text-base-content/60 mt-3 max-w-2xl">
+                    A collection of web applications focused on architecture, scalability, authentication
+                    systems, and clean UI design.
+                </p>
+            </div>
+
+            <div class="space-y-24">
+
+                <!-- 01 CHIRP -->
+                <div class="grid lg:grid-cols-2 gap-12 items-center border-b border-base-300 pb-20">
+
+                    <!-- Image -->
+                    <div>
+                        <img src="/assets/chirp-deskop.png" class="rounded-lg shadow-xl border border-base-300 w-full"
+                            alt="Chirp Project Screenshot">
+                    </div>
+
+                    <!-- Content -->
+                    <div>
+                        <p class="text-sm tracking-widest text-base-content/40 mb-2">
+                            01 / FULL-STACK SOCIAL PLATFORM
+                        </p>
+
+                        <h2 class="text-3xl font-bold mb-4">
+                            Chirp
+                        </h2>
+
+                        <p class="text-lg text-base-content/70 mb-6">
+                            A modern Instagram-style social media application.
+                        </p>
+
+                        <p class="text-base-content/70 leading-relaxed mb-6">
+                            Chirp is a full-stack social platform that allows users to create accounts, post
+                            messages,
+                            follow other users, and interact in real time. It features secure authentication,
+                            RESTful API
+                            architecture, protected routes, and a fully responsive frontend connected to a
+                            PostgreSQL database.
+                            The interface was built with React and was optimized for usability and speed as a Singe Page
+                            Application.
+                        </p>
+
+                        <div class="mb-6">
+                            <p class="text-sm font-semibold text-base-content/60 mb-2">Tech Stack</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="badge badge-outline">React</span>
+                                <span class="badge badge-outline">Node.js</span>
+                                <span class="badge badge-outline">Express</span>
+                                <span class="badge badge-outline">PostgreSQL</span>
+                                <span class="badge badge-outline">Prisma</span>
+                                <span class="badge badge-outline">Railway</span>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <a href="https://github.com/Emerson-Kelly/chirp" target="_blank" class="btn btn-ghost">
+                                View Code
+                            </a>
+                            <a href="https://chirp-client-production.up.railway.app/" target="_blank"
+                                class="btn btn-primary">
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 02 COOKIE JAR -->
+                <div class="grid lg:grid-cols-2 gap-12 items-center border-b border-base-300 pb-20">
+
+                    <div>
+                        <img src="/assets/cookie-jar-desktop.png"
+                            class="rounded-lg shadow-xl border border-base-300 w-full"
+                            alt="Cookie Jar Project Screenshot">
+                    </div>
+
+                    <div>
+                        <p class="text-sm tracking-widest text-base-content/40 mb-2">
+                            02 / AUTHENTICATED FILE STORAGE
+                        </p>
+
+                        <h2 class="text-3xl font-bold mb-4">
+                            CookieJar
+                        </h2>
+
+                        <p class="text-lg text-base-content/70 mb-6">
+                            Secure cloud-based file uploader with role-based access.
+                        </p>
+
+                        <p class="text-base-content/70 leading-relaxed mb-6">
+                            CookieJar is a full-stack file management system that allows users to upload, rename,
+                            delete, and organize files within authenticated accounts. It includes protected routes,
+                            session-based authentication with Passport.js, Prisma ORM integration, and cloud storage
+                            support.
+                            The backend is deployed on Railway and built with scalable production patterns.
+                        </p>
+
+                        <div class="mb-6">
+                            <p class="text-sm font-semibold text-base-content/60 mb-2">Tech Stack</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="badge badge-outline">Node.js</span>
+                                <span class="badge badge-outline">Express</span>
+                                <span class="badge badge-outline">Prisma</span>
+                                <span class="badge badge-outline">PostgreSQL</span>
+                                <span class="badge badge-outline">Passport.js</span>
+                                <span class="badge badge-outline">Tailwind</span>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <a href="https://github.com/Emerson-Kelly/file-uploader" target="_blank"
+                                class="btn btn-ghost">
+                                View Code
+                            </a>
+                            <a href="https://file-uploader-production-e1a0.up.railway.app/" target="_blank"
+                                class="btn btn-primary">
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 03 BATTLESHIP -->
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+                    <div>
+                        <img src="/assets/battleship-deskop.png"
+                            class="rounded-lg shadow-xl border border-base-300 w-full"
+                            alt="Battleship Project Screenshot">
+                    </div>
+
+                    <div>
+                        <p class="text-sm tracking-widest text-base-content/40 mb-2">
+                            03 / GAME ENGINE & TESTING
+                        </p>
+
+                        <h2 class="text-3xl font-bold mb-4">
+                            Battleship
+                        </h2>
+
+                        <p class="text-lg text-base-content/70 mb-6">
+                            Test-driven JavaScript game engine with AI logic.
+                        </p>
+
+                        <p class="text-base-content/70 leading-relaxed mb-6">
+                            A fully modular Battleship game built with vanilla JavaScript and Jest.
+                            The project emphasizes object-oriented design, separation of concerns,
+                            and test-driven development. The AI intelligently targets adjacent cells after
+                            a successful hit, simulating strategic gameplay rather than random guessing.
+                        </p>
+
+                        <div class="mb-6">
+                            <p class="text-sm font-semibold text-base-content/60 mb-2">Tech Stack</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="badge badge-outline">JavaScript</span>
+                                <span class="badge badge-outline">Jest</span>
+                                <span class="badge badge-outline">Webpack</span>
+                                <span class="badge badge-outline">TDD</span>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <a href="https://github.com/Emerson-Kelly/battleship" target="_blank" class="btn btn-ghost">
+                                View Code
+                            </a>
+                            <a href="https://emerson-kelly.github.io/battleship/" target="_blank"
+                                class="btn btn-primary">
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- EXPERIENCE -->
+        <section id="experience" class="py-24">
+
+            <div class="mb-16">
+                <h2 class="text-4xl lg:text-5xl font-bold text-neutral">
+                    Experience
+                </h2>
+                <p class="text-base-content/60 mt-3 max-w-2xl">
+                    Professional experience focused on web development, frontend architecture,
+                    API integrations, and cross-functional collaboration.
+                </p>
+            </div>
+
+            <div class="relative border-l border-base-300 pl-8 space-y-16">
+
+                <!-- Role 1 -->
+                <div class="relative">
+                    <div class="absolute -left-[41px] top-2 w-4 h-4 bg-primary rounded-full border-4 border-base-100">
+                    </div>
+
+                    <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-2">
+                        <h3 class="text-xl font-semibold">
+                            Web Strategist · Philadelphia, PA
+                        </h3>
+                        <span class="text-sm text-base-content/50">
+                            2022 – 2026
+                        </span>
+                    </div>
+                    <h4 class="font-medium text-lg text-base-content/70">
+                        Stream Companies
+                    </h4>
+                    <ul class="mt-6 space-y-3 text-base-content/70 leading-relaxed">
+                        <li>Developed automotive e-commerce websites using HTML, CSS, and JavaScript.</li>
+                        <li>Managed API integrations for dynamic promotional content across client platforms.</li>
+                        <li>Standardized frontend components to improve maintainability and consistency.</li>
+                        <li>Collaborated with engineering teams and OEM/legal stakeholders to ensure compliance and
+                            technical alignment.</li>
+                    </ul>
+                </div>
+
+                <!-- Role 2 -->
+                <div class="relative">
+                    <div class="absolute -left-[41px] top-2 w-4 h-4 bg-primary rounded-full border-4 border-base-100">
+                    </div>
+
+                    <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-2">
+                        <h3 class="text-xl font-semibold">
+                            Junior Web Strategist · Philadelphia, PA
+                        </h3>
+                        <span class="text-sm text-base-content/50">
+                            2020 – 2022
+                        </span>
+                    </div>
+                    <h4 class="font-medium text-lg text-base-content/70">
+                        Stream Companies
+                    </h4>
+                    <ul class="mt-6 space-y-3 text-base-content/70 leading-relaxed">
+                        <li>Built and optimized SEO-focused landing pages.</li>
+                        <li>Implemented creative assets and interactive components.</li>
+                        <li>Improved UI consistency and frontend performance across client sites.</li>
+                    </ul>
+                </div>
+
+                <!-- Role 3 -->
+                <div class="relative">
+                    <div class="absolute -left-[41px] top-2 w-4 h-4 bg-primary rounded-full border-4 border-base-100">
+                    </div>
+
+                    <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-2">
+                        <h3 class="text-xl font-semibold">
+                            Campus Revenue Lead · Philadelphia, PA
+                        </h3>
+                        <span class="text-sm text-base-content/50">
+                            2019 – 2020
+                        </span>
+                    </div>
+                    <h4 class="font-medium text-lg text-base-content/70">
+                        Good Uncle
+                    </h4>
+                    <ul class="mt-6 space-y-3 text-base-content/70 leading-relaxed">
+                        <li>Led revenue initiatives and managed influencer partnerships.</li>
+                        <li>Tracked acquisition metrics and coordinated sponsorship contracts.</li>
+                        <li>Maintained feedback loops between campus operations and corporate leadership.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- EDUCATION -->
+        <section id="education" class="pb-24 scroll-mt-24">
+
+            <div class="mb-8">
+                <h2 class="text-4xl lg:text-5xl font-bold text-neutral">
+                    Education
+                </h2>
+                <p class="text-base-content/60 mt-3 max-w-2xl">
+                    Formal education and intensive full-stack engineering training.
+                </p>
+            </div>
+
+            <div class="space-y-8">
+
+                <!-- Odin Project -->
+                <div class="border border-base-200 rounded-2xl p-8 bg-base-100 shadow-sm">
+
+                    <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-2">
+                        <h3 class="text-xl font-semibold">
+                            The Odin Project — Full Stack JavaScript
+                        </h3>
+                        <span class="text-sm text-base-content/50">
+                            2023 – 2026
+                        </span>
+                    </div>
+
+                    <p class="mt-6 text-base-content/70 leading-relaxed">
+                        Intensive project-driven curriculum covering frontend development,
+                        backend architecture with Node.js and Express, relational databases
+                        using PostgreSQL and Prisma, authentication systems, RESTful API design,
+                        and Git-based workflows.
+                    </p>
+                </div>
+
+                <!-- University -->
+                <div class="border border-base-200 rounded-2xl p-8 bg-base-100 shadow-sm">
+
+                    <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-2">
+                        <h3 class="text-xl font-semibold">
+                            La Salle University — BBA Marketing
+                        </h3>
+                        <span class="text-sm text-base-content/50">
+                            Graduated May 2022 · Philadelphia, PA
+                        </span>
+                    </div>
+
+                    <p class="mt-4 text-base-content/70">
+                        Minor in Digital Arts & Multimedia Design.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+    </div>
+</body>
+
+</html>
